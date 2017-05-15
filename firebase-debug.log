@@ -1,0 +1,212 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.7.0
+[debug] Platform:     win32
+[debug] Node Version: v6.9.5
+[debug] Time:         Mon May 15 2017 15:12:54 GMT+0300 (Беларусь (зима))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/WJbtdQ4sZ_aHGFL8nxN3mt6ybJPKn5i8Fdmq-e7ISmM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon May 15 2017 15:12:54 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:12:54 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simple-3bb2e/tokens  
+ Mon May 15 2017 15:12:55 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\Anastasiya\Documents\GitHub\simple
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:12:56 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047288025375/clients/_:getWebAppConfig  
+ Mon May 15 2017 15:12:57 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\commands\serve.js:37:17)
+    at Server.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:185:7)
+    at emitListeningNT (net.js:1285:10)
+    at _combinedTickCallback (internal/process/next_tick.js:71:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.7.0
+[debug] Platform:     win32
+[debug] Node Version: v6.9.5
+[debug] Time:         Mon May 15 2017 15:15:54 GMT+0300 (Беларусь (зима))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:15:54 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simple-3bb2e/tokens  
+ Mon May 15 2017 15:15:55 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\Anastasiya\Documents\GitHub\simple
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:15:56 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047288025375/clients/_:getWebAppConfig  
+ Mon May 15 2017 15:15:57 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\commands\serve.js:37:17)
+    at Server.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:185:7)
+    at emitListeningNT (net.js:1285:10)
+    at _combinedTickCallback (internal/process/next_tick.js:71:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 5001
+[debug] CLI Version:  3.7.0
+[debug] Platform:     win32
+[debug] Node Version: v6.9.5
+[debug] Time:         Mon May 15 2017 15:16:26 GMT+0300 (Беларусь (зима))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:16:26 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simple-3bb2e/tokens  
+ Mon May 15 2017 15:16:27 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\Anastasiya\Documents\GitHub\simple
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:16:27 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047288025375/clients/_:getWebAppConfig  
+ Mon May 15 2017 15:16:29 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\commands\serve.js:37:17)
+    at Server.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:185:7)
+    at emitListeningNT (net.js:1285:10)
+    at _combinedTickCallback (internal/process/next_tick.js:71:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 5001
+[debug] CLI Version:  3.7.0
+[debug] Platform:     win32
+[debug] Node Version: v7.10.0
+[debug] Time:         Mon May 15 2017 15:21:19 GMT+0300 (Беларусь (зима))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:21:19 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simple-3bb2e/tokens  
+ Mon May 15 2017 15:21:20 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\Anastasiya\Documents\GitHub\simple
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:21:20 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047288025375/clients/_:getWebAppConfig  
+ Mon May 15 2017 15:21:22 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\commands\serve.js:37:17)
+    at Object.onceWrapper (events.js:293:19)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:188:7)
+    at emitListeningNT (net.js:1286:10)
+    at _combinedTickCallback (internal/process/next_tick.js:77:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 5001
+[debug] CLI Version:  3.7.0
+[debug] Platform:     win32
+[debug] Node Version: v7.10.0
+[debug] Time:         Mon May 15 2017 15:23:22 GMT+0300 (Беларусь (зима))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:23:22 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simple-3bb2e/tokens  
+ Mon May 15 2017 15:23:23 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\Anastasiya\Documents\GitHub\simple
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:23:24 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047288025375/clients/_:getWebAppConfig  
+ Mon May 15 2017 15:23:25 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\commands\serve.js:37:17)
+    at Object.onceWrapper (events.js:293:19)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:188:7)
+    at emitListeningNT (net.js:1286:10)
+    at _combinedTickCallback (internal/process/next_tick.js:77:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 5001
+[debug] CLI Version:  3.7.0
+[debug] Platform:     win32
+[debug] Node Version: v7.10.0
+[debug] Time:         Mon May 15 2017 15:26:10 GMT+0300 (Беларусь (зима))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:26:10 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/simple-3bb2e/tokens  
+ Mon May 15 2017 15:26:10 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\Anastasiya\Documents\GitHub\simple
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/simple-3bb2e  
+ Mon May 15 2017 15:26:11 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047288025375/clients/_:getWebAppConfig  
+ Mon May 15 2017 15:26:12 GMT+0300 (Беларусь (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\Anastasiya\AppData\Roaming\npm\node_modules\firebase-tools\commands\serve.js:37:17)
+    at Object.onceWrapper (events.js:293:19)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:188:7)
+    at emitListeningNT (net.js:1286:10)
+    at _combinedTickCallback (internal/process/next_tick.js:77:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+[error] 
+[error] Error: An unexpected error has occurred.
