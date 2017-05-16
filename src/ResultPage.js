@@ -98,14 +98,17 @@ class ResultPage extends Component {
   }
   componentDidMount() {
       // firebase.database().ref('numberYes/-KkCdYa0bH0A0Os_W5wG').update({ count: 10, visited: 10 })
-      const { visited } = this.state
+
+      const { visited, count } = this.state
       firebase.database().ref('numberYes/-KkCdYa0bH0A0Os_W5wG').once('value')
       .then(snapshot => {
       const object = snapshot.val()
       if (object !== null) {
         const visited = object.visited
+        const count = object.count
         const newVisited = Number(visited) + 1
-        this.setState({ visited : newVisited })
+        const newCount = Number(count) + 1
+        this.setState({ visited : newVisited, count : newCount })
       }
       })
         .then(() => {
@@ -187,19 +190,8 @@ renderResults () {
 )
 }
 wasUseful () {
-  const { count } = this.state
-  firebase.database().ref('numberYes/-KkCdYa0bH0A0Os_W5wG').once('value')
-  .then(snapshot => {
-  const object = snapshot.val()
-  if (object !== null) {
-    const count = object.count
-      const newCount = Number(count) + 1
-    this.setState({ count : newCount , showHelpResult: true })
-  }
-  })
-    .then(() => {
+    this.setState({ showHelpResult: true })
     firebase.database().ref('numberYes/-KkCdYa0bH0A0Os_W5wG').update({ count: this.state.count })
-  })
 }
 
 
@@ -235,10 +227,9 @@ render() {
   const { query } = this.props.location.query
   const { results, noResults, usefullButton } = this.state
   // console.log(results)
-  const isloading = false
-  // (results.length === 0)
-  setTimeout(() => { this.setState({ noResults: true, isloading: false })}, 10000)
-  setTimeout(() => {this.setState({ usefullButton: true })}, 4000)
+  const isloading = (results.length === 0)
+  setTimeout(() => { this.setState({ noResults: true, isloading: false })}, 15000)
+  setTimeout(() => {this.setState({ usefullButton: true })}, 6000)
   // console.log(isloading)
   return (
     <div className="container">
